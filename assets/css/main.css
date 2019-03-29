@@ -1,10 +1,14 @@
 body {
-    background-color: black
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
 }
 h1 {
     color: white;
     font-size: 20vh;
     font-weight: bold;
+    text-transform: uppercase;
+    line-height: 15vh;
+    letter-spacing: -1vh;
 }
 @media screen and (max-width: 690px){
     h1 {
