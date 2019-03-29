@@ -13,5 +13,6 @@ h1 {
 @media screen and (max-width: 690px){
     h1 {
         font-size: 12vh;
+        line-height: 9vh;
     }
 }
