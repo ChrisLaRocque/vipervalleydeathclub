@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Viper Valley Death Club</title>
+    <link rel="icon" type="image/png" href="/assets/img/vinyl.png">
+    <meta name="description" content="" />
+    <meta property="og:title" content="Viper Valley Death Club" />
+    <meta property="og:description" content="Viper Valley Death Club" />
+    <meta property="og:image" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://vipervalleydeathclub.com" />
+    <meta property="fb:app_id" content="" />
+     
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Site CSS-->
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+    
+  </head>
+  <body>
+    
+    <section>
+        <h1>It's The Fucking Viper Valley Death Club</h1>   
+    </section>
+    <!--Nav--
+    <section id="nav">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark mt-1">
+                <a class="navbar-left" href="#"><img src="/assets/img/PP-Square-White-250.png" style="height: 60px; border-radius: 50%"></a>
+                <div class="row ml-auto">
+                    <a href="https://www.facebook.com/pitypattern/" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/pitypattern/" class="fa fa-instagram"></a>
+                    <a href="https://twitter.com/pitypattern" class="fa fa-twitter"></a>
+                    <a href="mailto:pitypattern@gmail.com" class="fa fa-envelope"></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link" href="https://pitypattern.bandcamp.com/releases">Music</a>
+                        <a class="nav-item nav-link" href="#videos">Videos</a>
+                        <a class="nav-item nav-link" href="https://pitypattern.bandcamp.com/merch">Merch</a>
+                        <a class="nav-item nav-link" href="#shows">Shows</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>-->
+    
+    <!--Footer--
+    <section id="footer">
+        <div class="container mb-3">
+            <div class="row mb-3">
+                <a href="https://www.facebook.com/pitypattern/" class="mx-auto fa fa-facebook"></a>
+                <a href="https://www.instagram.com/pitypattern/" class="mx-auto fa fa-instagram"></a>
+                <a href="https://twitter.com/pitypattern" class="mx-auto fa fa-twitter"></a>
+                <a href="mailto:pitypattern@gmail.com" class="mx-auto fa fa-envelope"></a>
+            </div>
+            <div class="row">
+                <p class="mx-auto"><strong>&copy;2018 Pity Pattern</strong></p>
+            </div>
+        </div>
+    </section>-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <!--Populates featured video window-->
+    <script>
+        $('.video-cover').click(function(){
+            var id =  $(this).attr('id')
+            $('.featured-video').show();    
+            $('.featured-video').html('<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/' + id + '?rel=0&autoplay=1"></iframe></div>');
+        }); 
+    </script>
+    <script>
+        $('.hero-video-cover').click(function(){
+            var id =  $(this).attr('id')    
+            $('.hero-video-cover').html('<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/' + id + '?rel=0&autoplay=1"></iframe></div>');
+        }); 
+    </script>
+  </body>
+</html>
